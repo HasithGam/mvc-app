@@ -10,7 +10,7 @@ app.use('/api/catfacts', catFactRoutes);
 
 app.get('/', (req, res) => {
     res.json({
-        message: 'Welcome to my DOCKER application.'
+        message: 'Welcome to my DOCKER application. with CI/CD'
     });
 });
 
